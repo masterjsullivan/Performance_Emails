@@ -148,10 +148,10 @@ sorted_df['Rank'] = sorted_df['average_activity_hours'].rank(method='min', ascen
 # Email credentials (replace with your actual credentials)
 
 # sender_email = input("Enter your Email: ")
-sender_email = 'snahm@veteranevals.com'
+sender_email = ''
 
 #sender_password = getpass.getpass(prompt='Enter your pasword: ')
-sender_password = 'pdnxirislokleivc'
+sender_password = ''
 
 #Define a function to send an email using SMTPlib
 def send_email(receiver_email, subject, body):
